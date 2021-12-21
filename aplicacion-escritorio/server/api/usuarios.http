@@ -1,0 +1,19 @@
+
+### Obtener los usuarios
+GET http://localhost:3000/usuarios
+
+
+###Obtener un usuario
+GET http://localhost:3000/usuarios/61a2aa9c03e95f0c222e8c77
+
+
+### Publicar un usuario
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+
+{
+    "nombres": "Sergio",
+    "email": "Sergio.com",
+    "pass": "sergio123"
+}

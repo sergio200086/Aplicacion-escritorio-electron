@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
+    />
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- nuestro css -->
+    <link rel="stylesheet" href="../css/estilo.css" />
+    <title>Mis finanzas</title>
+  </head>
+  <body>
+    <div class="modal-dialog text-center">
+      <div class="col-sm-9 main-section">
+        <div class="modal-content">
+          <div class="col-12 user-img">
+            <img src="../img/avatar.png" alt="Foto perfil" />
+          </div>
+          <form class="col-12">
+            <div class="form-group" id="user-group">
+              <input
+                id="email"
+                type="text"
+                class="form-control"
+                placeholder="Correo electrónico"
+              />
+            </div>
+            <div class="form-group" id="contrasena-group">
+              <input
+                id="pass"
+                type="password"
+                class="form-control"
+                placeholder="Contraseña"
+              />
+            </div>
+            <div id="alert">
+              
+            </div>
+            <!-- <button id="btnLogin" type="submit" class="btn btn-warning"  > <i class="fas fa-sign-in-alt"></i></fas-sign-in-all> Ingresar</button> -->
+            <button  id="btnLogin" type="button" class="btn btn-warning"  > <i class="fas fa-sign-in-alt"></i></fas-sign-in-all> Ingresar</button>
+          </form>
+          <div class="forgot" >
+            <button type="button" class="btn btn-link" id="registro">¿No tienes cuenta? Registrate!!</button>
+              
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Script js de bootstrap -->
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+      integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/index.js" defer ></script>
+  </body>
+</html>

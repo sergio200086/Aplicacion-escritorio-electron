@@ -1,0 +1,30 @@
+### Obtener todas las tareas
+GET http://localhost:3000/tareas
+
+###Obtener una tarea
+GET http://localhost:3000/tareas/6193d5857934c5a7db2923c6
+
+###Crear una tarea
+POST http://localhost:3000/tareas 
+Content-Type: application/json
+
+
+{
+    "titulo": "escalando",
+    "descripcion": "estoy escalando...",
+    "terminada": true,
+    "fecha": "2021-01-01"
+}
+
+### No se que hace esto
+PATCH http://localhost:3000/tareas/6193d5857934c5a7db2923c6 
+Content-Type: application/json
+
+
+{
+    
+    "titulo": "cooasdasdasadking"
+}
+
+### Borra una tarea
+DELETE http://localhost:3000/tareas/6193d5857934c5a7db2923c6 

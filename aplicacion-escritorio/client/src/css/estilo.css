@@ -1,0 +1,78 @@
+body {
+  background: url(../img/fondo.jpg) repeat center center fixed;
+  background-size: cover;
+}
+
+.main-section {
+  margin: 0 auto;
+  margin-top: 25%;
+  padding: 0;
+}
+#user-group,
+#contrasena-group {
+  padding: 5px;
+}
+
+.modal-content {
+  background-color: #745c41;
+  opacity: 0.9;
+  padding: 0 30px 0px 30px;
+  box-shadow: 0 0 3px #745c41;
+}
+.user-img {
+  margin-top: -50px;
+  margin-bottom: 8px;
+}
+
+.user-img img {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 3px #745c41;
+  border-radius: 50%;
+}
+
+.form-group input {
+  height: 42px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+}
+.form-group::before {
+  font-family: "Font Awesome\ 5 free";
+  position: absolute;
+  left: 8px;
+  font-size: 22px;
+  padding-top: 3px;
+}
+
+.form-group#user-group::before {
+  content: "\f007";
+  color: #eca049;
+}
+
+.form-group#contrasena-group::before {
+  content: "\f023";
+  color: #eca049;
+}
+
+button {
+  width: 60%;
+  margin: 10px 0 10px;
+}
+
+.forgot {
+  padding: 0 0 5px 0;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.forgot a {
+  color: rgb(158, 108, 0);
+}
+
+#registro {
+  color: #ffa034;
+  text-decoration: none;
+}

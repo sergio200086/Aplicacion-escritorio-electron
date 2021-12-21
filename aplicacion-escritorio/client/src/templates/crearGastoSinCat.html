@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" />
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/estiloRegistro.css" />
+
+    <title>Registro</title>
+</head>
+
+<body>
+    <div class="main-section">
+        <div class="modal-content p-3">
+            <form action="" method="" name="crearCategoria" class="needs-validation" novalidate>
+                <h4 for="inputCat1" class="form-label">Formulario de crear Gasto con categoría</h3>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="fecha">Fecha del gasto</span>
+                        <input id="fechaGasto" type="date" class="form-control" aria-label="Username" aria-describedby="fecha">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="desc">Descripción</span>
+                        <input id="descripcion" type="text" class="form-control" aria-label="Username" aria-describedby="desc">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="monto">Monto</span>
+                        <input id="montoGasto" type="number" class="form-control" aria-label="Username" aria-describedby="monto">
+                    </div>
+
+                    <div id="alerta" class="form-text">
+                        <!-- Agregar las clases: btn btn-danger sin hover -->
+                        La categoría es la que seleccionó antes
+                    </div>
+
+                    <button type="button" id="btnCrearGasto" class="btn btn-outline-dark mt-3 ">
+                      Crear
+                    </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/crearGastoSinCat.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>
